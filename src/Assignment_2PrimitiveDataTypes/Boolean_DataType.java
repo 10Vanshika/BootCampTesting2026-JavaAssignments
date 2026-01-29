@@ -2,7 +2,13 @@ package Assignment_2PrimitiveDataTypes;
 
 public class Boolean_DataType {
     public static void main(String[] args) {
-        boolean flag = true;
-        System.out.println(flag);
+    	int x = 10;
+		int y = 12;
+		if(x+y < 10) {
+			System.out.println("x + y is less than 10");
+		}
+		else {
+			System.out.println("x + y is greater than 20");
     }
+}
 }
